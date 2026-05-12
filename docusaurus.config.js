@@ -55,21 +55,21 @@ const config = {
           //  editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //  editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        /*  blog: {
+            showReadingTime: true,
+            feedOptions: {
+              type: ['rss', 'atom'],
+              xslt: true,
+            },
+            // Please change this to your repo.
+            // Remove this to remove the "edit this page" links.
+            //  editUrl:
+            //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            // Useful options to enforce blogging best practices
+            onInlineTags: 'warn',
+            onInlineAuthors: 'warn',
+            onUntruncatedBlogPosts: 'warn',
+          },*/
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -92,32 +92,25 @@ const config = {
           src: 'static/img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'decmSidebar',
-            position: 'left',
-            label: 'DECM',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'RRSSSidebar',
-            position: 'left',
-            label: 'RRSS',
-          },
-
+          /* {
+             type: 'docSidebar',
+             sidebarId: 'tutorialSidebar',
+             position: 'left',
+             label: 'Tutorial',
+           },*/
           {
             type: 'docSidebar',
             sidebarId: 'pmdmSidebar',
             position: 'left',
             label: 'PMDM',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'docSidebar',
+            sidebarId: 'rrssSidebar',
+            position: 'left',
+            label: 'RRSS',
+          },
+          //     { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
