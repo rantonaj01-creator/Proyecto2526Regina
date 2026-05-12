@@ -119,7 +119,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            //            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
@@ -137,7 +137,7 @@ const config = {
               },
             ],
           },
-          {
+/*          {
             title: 'Community',
             items: [
               {
@@ -152,9 +152,10 @@ const config = {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
               },
-            ],
+  
+           ],
           },
-          {
+  */        {
             title: 'More',
             items: [
               {
@@ -163,7 +164,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                //     href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },

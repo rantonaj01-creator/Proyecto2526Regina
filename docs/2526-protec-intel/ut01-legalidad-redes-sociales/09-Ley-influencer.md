@@ -1,5 +1,5 @@
 ---
-title: Cuestionario: La "Ley Influencer"
+title: Cuestionario La Ley Influencer
 sidebar_position: 9
 description: Test de autoevaluación basado en el podcast sobre el Real Decreto 444/2024 y la regulación de creadores de contenido en España.
 ---
